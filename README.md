@@ -82,7 +82,7 @@ Key takeaways:
 
 ### Compensation & Reward Model
 * \$1,000 bonus pool for **Low Absence** employees (< 4 h) → 196 staff qualify.  
-* **Non-smoker raise simulation:** \$10 k budget = +\$0.48/hr for 312 employees.
+* **Non-smoker raise simulation:** \$10K budget = +\$0.48/hr for 312 employees.
 
 ### Dashboard Design Notes
 The Power BI report uses a four-panel grid:
