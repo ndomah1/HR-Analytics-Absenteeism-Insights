@@ -2,7 +2,6 @@
 
 > **Purpose:** Equip HR leaders with data-driven insight into why, when and how employees are absent—so they can design smarter wellness, scheduling and compensation policies.
 
----
 
 ## Table of Contents
 - [Dashboard Preview](#dashboard-preview)
@@ -18,16 +17,12 @@
 - [Recommendations](#recommendations)
 - [Assumptions & Caveats](#assumptions--caveats)
 - [Next Steps](#next-steps)
-- [License](#license)
 
----
 
 ## Dashboard Preview
-<p align="center">
-  <img src="assets/hr_absenteeism_dashboard.png" alt="Power BI dashboard visualising absenteeism KPIs" width="800">
-</p>
 
----
+![dashboard](https://github.com/ndomah1/HR-Analytics-Absenteeism-Insights/blob/main/images/HR%20Analytics%20Dashboard.png)
+
 
 ## Project Background
 As part of an HR modernisation initiative, I was asked to build an end-to-end analytics solution that answers two strategic questions:
@@ -37,14 +32,13 @@ As part of an HR modernisation initiative, I was asked to build an end-to-end an
 
 Using SQL Server for data prep and Power BI for visualisation, I produced an executive-ready, dark-themed dashboard that slices absenteeism by season, weekday, reason code and demographic attributes.
 
----
 
 ## Data Structure & Initial Checks
 | File | Description |
 |------|-------------|
-| `Absenteeism_at_work.csv` | Raw absence records (dates, hours, reason codes) |
-| `Reasons.csv` | Lookup table: reason code → description |
-| `Compensation.csv` | Base pay and smoker status for each employee |
+| [`Absenteeism_at_work.csv`](https://github.com/ndomah1/HR-Analytics-Absenteeism-Insights/blob/main/data/Absenteeism_at_work.csv) | Raw absence records (dates, hours, reason codes) |
+| [`Reasons.csv`](https://github.com/ndomah1/HR-Analytics-Absenteeism-Insights/blob/main/data/Reasons.csv) | Lookup table: reason code → description |
+| [`Compensation.csv`](https://github.com/ndomah1/HR-Analytics-Absenteeism-Insights/blob/main/data/compensation.csv) | Base pay and smoker status for each employee |
 
 **Pre-processing steps**
 
@@ -55,7 +49,6 @@ Using SQL Server for data prep and Power BI for visualisation, I produced an exe
 
 Cleaned tables were imported into Power BI via SQL views.
 
----
 
 ## Executive Summary
 | KPI | Value |
@@ -72,7 +65,6 @@ Key takeaways:
 * Healthy-BMI employees miss **≈ 2 hours fewer** than obese peers.  
 * Monday spikes suggest weekend spill-over or scheduling issues.
 
----
 
 ## Insights Deep Dive
 
@@ -102,7 +94,6 @@ The Power BI report uses a four-panel grid:
 
 Dark theme + icons echo the original wireframe for quick executive scanning.
 
----
 
 ## Recommendations
 1. Launch a **targeted wellness program** for high-BMI staff.  
@@ -111,7 +102,6 @@ Dark theme + icons echo the original wireframe for quick executive scanning.
 4. Deploy the **bonus & non-smoker raise schemes** quarterly; monitor ROI.  
 5. Tighten **reason-code capture** to eliminate “Unknown” entries.
 
----
 
 ## Assumptions & Caveats
 * Single-year snapshot; multi-year trend may differ.  
@@ -120,14 +110,9 @@ Dark theme + icons echo the original wireframe for quick executive scanning.
 * Simulations assume fixed headcount and ignore overtime.  
 * Report optimised for desktop Power BI (mobile out-of-scope).
 
----
 
 ## Next Steps
 * Automate monthly ETL → Power BI refresh.  
 * Prototype **predictive model** to flag high-risk absentee weeks.  
 * Add cost-of-absence calculations for finance partners.
 
----
-
-## License
-MIT – see [`LICENSE`](LICENSE) for details.
