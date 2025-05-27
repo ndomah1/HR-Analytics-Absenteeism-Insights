@@ -25,7 +25,7 @@
 
 
 ## Project Background
-As part of an HR modernisation initiative, I was asked to build an end-to-end analytics solution that answers two strategic questions:
+As part of an HR modernization initiative, I was asked to build an end-to-end analytics solution that answers two strategic questions:
 
 1. **How can we proactively reward healthy employee behaviour?**  
 2. **Where are the biggest drivers of absenteeism, and how can we mitigate them?**
