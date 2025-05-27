@@ -81,7 +81,7 @@ Key takeaways:
 * **“Unknown”** reason code appears 39 times → data-quality flag.
 
 ### Compensation & Reward Model
-* \$1 000 bonus pool for **Low Absence** employees (< 4 h) → 196 staff qualify.  
+* \$1,000 bonus pool for **Low Absence** employees (< 4 h) → 196 staff qualify.  
 * **Non-smoker raise simulation:** \$10 k budget = +\$0.48/hr for 312 employees.
 
 ### Dashboard Design Notes
