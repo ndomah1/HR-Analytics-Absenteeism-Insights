@@ -2,7 +2,6 @@
 
 > **Purpose:** Equip HR leaders with data-driven insight into why, when and how employees are absent—so they can design smarter wellness, scheduling and compensation policies.
 
----
 
 ## Table of Contents
 - [Dashboard Preview](#dashboard-preview)
@@ -19,13 +18,10 @@
 - [Assumptions & Caveats](#assumptions--caveats)
 - [Next Steps](#next-steps)
 
----
-
 ## Dashboard Preview
 
 ![dashboard](https://github.com/ndomah1/HR-Analytics-Absenteeism-Insights/blob/main/images/HR%20Analytics%20Dashboard.png)
 
----
 
 ## Project Background
 As part of an HR modernization initiative, I was asked to build an end-to-end analytics solution that answers two strategic questions:
@@ -35,7 +31,6 @@ As part of an HR modernization initiative, I was asked to build an end-to-end an
 
 Using SQL Server for data prep and Power BI for visualisation, I produced an executive-ready, dark-themed dashboard that slices absenteeism by season, weekday, reason code and demographic attributes.
 
----
 
 ## Data Structure & Initial Checks
 | File | Description |
@@ -53,7 +48,6 @@ Using SQL Server for data prep and Power BI for visualisation, I produced an exe
 
 Cleaned tables were imported into Power BI via SQL views.
 
----
 
 ## Executive Summary
 | KPI | Value |
@@ -71,7 +65,6 @@ Key takeaways:
 * A majority of staff fall in the **Healthy BMI bracket (53 %)**, but Obese (28 %) and Over-weight (20 %) cohorts remain substantial.  
 * Absenteeism spikes in **mid-summer (July)** and at the **start of the work-week (Day 2),** indicating potential scheduling and wellness opportunities.
 
----
 
 ## Insights Deep Dive
 
@@ -108,7 +101,6 @@ The Power BI report uses a four-panel grid:
 
 Dark mode, iconography and concise tooltips ensure quick executive scan-ability.
 
----
 
 ## Recommendations
 1. **Target July** with wellness campaigns and optional WFH to offset the seasonal spike.  
@@ -117,7 +109,6 @@ Dark mode, iconography and concise tooltips ensure quick executive scan-ability.
 4. Roll out the **bonus & non-smoker wage incentives** and evaluate quarterly ROI.  
 5. Improve data capture to reduce **“Unknown”** reason code instances (43 cases).
 
----
 
 ## Assumptions & Caveats
 * Analysis covers **one calendar year**; multi-year variance not assessed.  
@@ -126,7 +117,6 @@ Dark mode, iconography and concise tooltips ensure quick executive scan-ability.
 * Simulations assume constant headcount and ignore overtime.  
 * Report optimised for desktop Power BI; mobile view out-of-scope.
 
----
 
 ## Next Steps
 * Automate monthly ETL → Power BI refresh.  
