@@ -81,8 +81,8 @@ Key takeaways:
 * **“Unknown”** reason code appears 39 times → data-quality flag.
 
 ### Compensation & Reward Model
-* \$1,000 bonus pool for **Low Absence** employees (< 4 h) → 196 staff qualify.  
-* **Non-smoker raise simulation:** \$10K budget = +\$0.48/hr for 312 employees.
+* \$1 000 bonus pool for **Low Absence** employees (< 4 h) → 196 staff qualify.  
+* **Non-smoker raise simulation:** \$10 K budget = +\$0.48/hr for 312 employees.
 
 ### Dashboard Design Notes
 The Power BI report uses a four-panel grid:
@@ -115,4 +115,3 @@ Dark theme + icons echo the original wireframe for quick executive scanning.
 * Automate monthly ETL → Power BI refresh.  
 * Prototype **predictive model** to flag high-risk absentee weeks.  
 * Add cost-of-absence calculations for finance partners.
-
